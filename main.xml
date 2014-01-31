@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE xep SYSTEM 'xep.dtd' [
+<!ENTITY % ents SYSTEM 'xep.ent'>
+%ents;
+<!ENTITY actor "&lt;actor/&gt;">
+<!ENTITY invalidactor "&lt;invalid-actor/&gt;">
+<!ENTITY invalidnode "&lt;invalid-node/&gt;">
+]>
+<?xml-stylesheet type='text/xsl' href='xep.xsl'?>
+<xep>
+    {{SECTIONS}}
+</xep>

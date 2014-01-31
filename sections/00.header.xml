@@ -1,0 +1,25 @@
+<header>
+    <title>XEP Builder</title>
+    <abstract>This document describes nothing much at all.</abstract>
+    <number>xxxx</number>
+    <status>ProtoXEP</status>
+    <type>Standards Track</type>
+    <sig>Standards</sig>
+    <approver>Council</approver>
+    <revision>
+        <version>0.0.1</version>
+        <date>{{DATE}}</date>
+        <initials>slw</initials>
+        <remark>
+            <p>First draft.</p>
+        </remark>
+    </revision>
+    <shortname>NOT_YET_ASSIGNED</shortname>
+    <xi:include href="header/legal-guff.xml" xmlns:xi="http://www.w3.org/2001/XInclude" parse="xml" />
+    <dependencies>
+        <spec>XMPP Core</spec>
+    </dependencies>
+    <supersedes />
+    <supersededby />
+    <xi:include href="authors/lloyd-watkin.xml" xmlns:xi="http://www.w3.org/2001/XInclude" parse="xml" />
+</header>
