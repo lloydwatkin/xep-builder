@@ -1,8 +1,7 @@
 XEP Builder
 ==============
 
-
-# Creating
+## Creating
 
 Put your sections in the sections subdirectory. They will be added to the XEP in numerical order when build, e.g.
 
@@ -10,16 +9,22 @@ Put your sections in the sections subdirectory. They will be added to the XEP in
 * 1-security.xml
 * 3-examples.xml
 
-# Building the XEP
+## Building the XEP
 
-## Manually
+### Manually
 
 ```bash
 make
 open index.html
 ```
 
-## Automatically on file change
+or
+
+```
+grunt build
+```
+
+### Automatically on file change
 
 ```
 npm install -g grunt-cli
@@ -27,7 +32,9 @@ npm i .
 grunt
 ```
 
-# Deploy to `gh-pages` using Travis CI
+A task will now monitor the file system and rebuild the XEP on changes.
+
+## Deploy to `gh-pages` using Travis CI
 
 * Create a Github token: http://docs.travis-ci.com/user/build-configuration/#Secure-environment-variables
 * Copy `travis.yml.` to `.travis.yml`
@@ -35,7 +42,7 @@ grunt
 * Tell travis/github to run tests against your XEP repo
 * The XEP will be deployed to `gh-pages`
 
-# Build status
+## Build status
 
 [![Build Status](https://travis-ci.org/lloydwatkin/xep-builder)](https://travis-ci.org/lloydwatkin/xep-builder)
 
