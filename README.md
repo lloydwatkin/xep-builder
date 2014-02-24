@@ -1,6 +1,10 @@
 XEP Builder
 ==============
 
+A XEP building tool that allows you to break the XEP document down into smaller, more manageable sections. A grunt task will also attempt to rebuild the XEP on every file change and build the resulting html.
+
+When linked up with travis (see below) the library can also publish XEPs to your github pages branch and test any pull requests that are made to the repository.
+
 ## Creating
 
 Put your sections in the sections subdirectory. They will be added to the XEP in numerical order when build, e.g.

@@ -4,6 +4,7 @@ before_install:
 script:
   - make
 after_success: 
+  - if [ "master" -ne $TRAVIS_BRANCH ]; then exit 0; fi;
   - git config user.email "deploy@travis-ci.org"
   - git config user.name "Travis deploy"
   - cp index.html ~/
