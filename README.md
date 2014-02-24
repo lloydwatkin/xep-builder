@@ -5,6 +5,8 @@ A XEP building tool that allows you to break the XEP document down into smaller,
 
 When linked up with travis (see below) the library can also publish XEPs to your github pages branch and test any pull requests that are made to the repository.
 
+See it being used "fo' realz"&trade; at https://github.com/buddycloud/buddycloud-xep.
+
 ## Creating
 
 Put your sections in the sections subdirectory. They will be added to the XEP in numerical order when build, e.g.
