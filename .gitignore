@@ -1,6 +1,6 @@
-/.DS_Store
+.DS_Store
 /.project
-built.xml
 index.html
+index.xml
 node_modules
 *.swp
